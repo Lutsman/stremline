@@ -1,0 +1,205 @@
+.widget ul li {
+	color: $regular_link_color;
+}
+
+/* invert color */
+.invert .widget ul li, .invert .widget ul li a {
+	color: $invert_link_color;
+}
+.invert .widget ul li a:hover {
+	color: $invert_link_hover_color;
+}
+.invert .widget select{
+	color: $invert_link_color;
+}
+/*--------------------------------------------------------------
+# Widget calendar
+--------------------------------------------------------------*/
+.widget_calendar .calendar_wrap caption{
+	color: #fff;
+	background: $regular_text_color;
+	font-family: $h3_font_family;
+}
+.widget_calendar .calendar_wrap th{
+	color: $regular_text_color;
+}
+.widget_calendar .calendar_wrap tr td a::before{
+	background-color: $regular_accent_color_2;
+}
+.widget_calendar .calendar_wrap tr td a{
+	color: $regular_accent_color_2;
+	background: $regular_text_color;
+}
+.widget_calendar .calendar_wrap tr td a:hover{
+	color: $regular_text_color;
+}
+.widget_calendar .calendar_wrap tbody td#today {
+	background: $regular_accent_color_2;
+	color: $invert_accent_color_1;
+}
+.widget_calendar .calendar_wrap #prev a, .widget_calendar .calendar_wrap #next a {
+	color: $regular_accent_color_1;
+}
+
+/* invert color */
+.invert .widget_calendar .calendar_wrap caption{
+	color: $invert_accent_color_1;
+	background: $regular_accent_color_2;
+	background: -webkit-linear-gradient(to right, $regular_accent_color_2 0%, @darken( $regular_accent_color_2, 10% ) 100%);
+	background: linear-gradient(to right, $regular_accent_color_2 0%, @darken( $regular_accent_color_2, 10% ) 100%);
+}
+.invert .widget_calendar .calendar_wrap th{
+	color: $regular_accent_color_2;
+}
+.invert .widget_calendar .calendar_wrap a{
+	color: $invert_link_color;
+}
+.invert .widget_calendar .calendar_wrap a:hover{
+	color: $invert_link_hover_color;
+}
+.invert .widget_calendar .calendar_wrap tr td a::before{
+	background-color: $invert_accent_color_3;
+}
+/*--------------------------------------------------------------
+# Widget Tag Cloud
+--------------------------------------------------------------*/
+.widget_tag_cloud .tagcloud a{
+	color: $regular_text_color;
+	background: $invert_accent_color_3;
+}
+.widget_tag_cloud .tagcloud a:hover{
+	color: $invert_text_color;
+	background: $regular_link_color;
+}
+
+/* invert color */
+.invert .widget_tag_cloud .tagcloud a{
+	color: @contrast($invert_text_color, #fff, $invert_text_color);
+}
+.invert .widget_tag_cloud .tagcloud a:hover{
+	color: $invert_accent_color_1;
+	background: $regular_accent_color_2;
+	background: -webkit-linear-gradient(to right, $regular_accent_color_2 0%, @darken( $regular_accent_color_2, 10% ) 100%);
+	background: linear-gradient(to right, $regular_accent_color_2 0%, @darken( $regular_accent_color_2, 10% ) 100%);
+}
+/*--------------------------------------------------------------
+# Widget Recent Posts
+--------------------------------------------------------------*/
+.widget_recent_entries ul li a, .widget_recent_comments ul li>a{
+	color: $regular_link_hover_color;
+}
+.widget_recent_entries ul li a:hover, .widget_recent_comments ul li>a:hover{
+	color: $regular_link_color;
+}
+.widget_recent_entries ul li .post-date::before{
+	color: $regular_accent_color_3;
+}
+
+/*--------------------------------------------------------------
+# Widget Recent comments
+--------------------------------------------------------------*/
+.widget_recent_comments ul li {
+	color: $regular_text_color;
+}
+.widget_recent_comments ul li .comment-author-link {
+	color: $regular_accent_color_1;
+}
+.widget_recent_comments ul li a{
+	font-family: $h3_font_family;
+}
+
+
+/* invert color */
+.invert .widget_recent_entries ul li a, .invert .widget_recent_comments ul li>a{
+	color: $invert_link_hover_color;
+}
+.invert .widget_recent_entries ul li a:hover, .invert .widget_recent_comments ul li>a:hover{
+	color: $invert_link_color;
+}
+.invert .widget_recent_entries ul li .post-date::before{
+	color: $invert_accent_color_3;
+}
+
+
+
+
+
+
+/*streamline-widget-featured-posts-block*/
+.tm_fpblock__item__date {
+	color: $regular_accent_color_1;
+	font-family: $h2_font_family;
+}
+.tm_fpblock__item .tm_fpblock__item__category {
+	color: $invert_text_color;
+	background: $regular_accent_color_2;
+	font-family: $h2_font_family;
+	transition: .4s all ease;
+}
+.tm_fpblock__item .tm_fpblock__item__category:hover {
+	color: $ivnert_link_color;
+	background: $regular_text_color;
+}
+.tm_fpblock__item .tm_fpblock__item__description .tm_fpblock__item__title:hover, 
+.tm_fpblock__item:hover .tm_fpblock__item__description .tm_fpblock__item__title  {
+	color: $regular_accent_color_1;
+}
+
+/*streamline-widget-featured-posts-block*/
+.news-smart-box .post.full-type .widget-new-smart__title a{
+	color: $invert_h3_color;
+}
+.news-smart-box .post.full-type .widget-new-smart__title a:hover{
+	color: $regular_link_color;
+}
+
+.news-smart-box__navigation .current-term span {
+	color: $regular_text_color;
+	font-family: $h2_font_family;
+}
+.news-smart-box__navigation .terms-list .term-item span {
+	color: $regular_text_color;
+	font-family: $h3_font_family;
+}
+.news-smart-box__navigation .terms-list .term-item:before {
+	background: $regular_accent_color_1;
+}
+.widget-new-smart-inner-big-before-content .material-icons.share-main-icon {
+  color: $regular_accent_color_2;
+}
+.widget-new-smart-inner-big-before-content figure figcaption .post-date__link, .widget-image-grid__link {
+	font-family: $h2_font_family;
+}
+
+
+.site .widget.widget_search h4 {
+	color: $regular_h4_color;
+}
+
+.sidebar-primary .widget-subscribe{
+	background: $invert_accent_color_3;
+}
+
+.sidebar-primary .widget.widget_search{
+	background: $invert_accent_color_3;
+}
+
+.widget-new-smart-main:hover .widget-new-smart__title {
+	color: $regular_accent_color_1;
+}
+
+.widget-image-grid__content:hover .widget-image-grid__title {
+	color: $regular_accent_color_1;
+}
+
+.footer-area .widget-new-smart-inner-big-before-content figure figcaption .widget-new-smart__title a{
+	color: $regular_link_hover_color;
+}
+.footer-area .widget-new-smart-inner-big-before-content figure figcaption .widget-new-smart__title a:hover{
+	color: $regular_link_color;
+}
+
+
+.footer-area .widget-new-smart__title-small a:hover{
+	color: $regular_link_color;
+}
