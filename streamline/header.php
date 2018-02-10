@@ -34,6 +34,7 @@
 			<div <?php streamline_content_class(); ?> >
 				<div <?php echo streamline_get_container_classes( array( 'top-panel__wrap' ) ); ?>><?php
 					streamline_top_message( '<div class="top-panel__message">%s</div>' );
+                    streamline_header_logo();
 					streamline_top_sign_register();
 					streamline_top_search( '<div class="top-panel__search">%s</div>' );
 					streamline_top_menu();
