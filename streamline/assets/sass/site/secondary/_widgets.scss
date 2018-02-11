@@ -34,17 +34,16 @@
 		&.widget_search {
 			border: 1px solid $color__border-widget-color;
 			padding: 10px 14px 5px;
+      color: #fff;
 			@media (max-width: 361px) {
 				padding: 10px;
 			}
 			@include media-breakpoint-up(lg) {
 				padding: 20px 30px;
 			}
-			color: #fff;
 			h4 {
 				color: #fff;
 				margin-bottom: 2px;
-
 			}
 
 			input {
@@ -71,9 +70,6 @@
 			}
 			h4 {
 				margin-bottom: 8px;
-				&:after{
-					content: none;
-				}
 			}
 		}
 
@@ -84,6 +80,10 @@
 		display: block;
 		width: 100%;
 	}
+
+  &.streamline.widget-subscribe {
+    background: #efefef;
+  }
 }
 
 .site-footer .widget.streamline.widget-subscribe {
@@ -92,16 +92,6 @@
 
 .widget-area .widget{
   overflow: hidden;
-}
-
-.site#page .sidebar-primary,
-.site .sidebar-secondary {
-	.widget_search{
-		.title-line:after,
-		.widget-title:after {
-			display: none;
-		}
-	}
 }
 
 .site#page .sidebar-primary,

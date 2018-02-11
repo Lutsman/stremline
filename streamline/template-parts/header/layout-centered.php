@@ -12,7 +12,6 @@
 	<div class="row">
     <div class="col-xs-12 col-md-7 col-xl-4  col-xl-offset-4 ">
       <div class="site-branding__logo">
-        <?php streamline_header_logo() ?>
         <?php streamline_site_description(); ?>
       </div>
     </div>
