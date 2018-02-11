@@ -76,6 +76,10 @@
 			}
 		}
 	}
+	.site-logo {
+		max-width: 200px;
+    display: block;
+	}
 
 	&__register {
 		float: right;
@@ -142,6 +146,12 @@
 				width: 100%;
 				max-width: calc(100% - 39px);
 			}
+		}
+	}
+
+	@media (max-width: 991px) {
+		.site-logo {
+			display: none;
 		}
 	}
 }
