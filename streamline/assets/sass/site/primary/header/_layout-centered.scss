@@ -22,6 +22,10 @@
 		}
 	}
 
+	.site-logo {
+		display: none;
+	}
+
 	.main-navigation {
 		text-align: left;
 		@include media-breakpoint-up(lg) {
@@ -55,6 +59,12 @@
 		}
 		.site-logo__link img{
 			max-width: 200px;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.site-logo {
+			display: block;
 		}
 	}
 }
